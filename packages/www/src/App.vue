@@ -119,7 +119,6 @@
 <script>
 import RULES from '@/RULES';
 import ClipboardJS from 'clipboard';
-// import throttle from 'lodash/throttle';
 export default {
     name: 'app',
 
@@ -129,6 +128,7 @@ export default {
         Object.freeze(RULES);
 
         return {
+            token:'',
             timer: null,
             keyword: '',
             rules: RULES,

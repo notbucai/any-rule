@@ -5,12 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build:demo": "npm run build && node ./scripts/demo",
+    "release": "npm run build && node ./scripts/demo",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "clipboard": "^2.0.4",
     "core-js": "^2.6.5",
+    "crypto-js": "^4.0.0",
     "lodash": "^4.17.13",
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
